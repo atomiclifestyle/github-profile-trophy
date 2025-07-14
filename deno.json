@@ -1,6 +1,9 @@
 {
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom"]
+  },
   "tasks": {
-    "start": "deno run -A debug.ts",
+    "start": "deno run -A main.ts",
     "debug": "deno run --inspect-brk -A debug.ts",
     "format": "deno fmt",
     "lint": "deno lint",
